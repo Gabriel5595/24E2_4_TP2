@@ -1,21 +1,21 @@
-id,codigo,titulo,autores,volume,aluno
-1,ABC123,Matematica Basica,Joao Silva,1,1
-2,DEF456,Fisica Moderna,Maria Oliveira,1,2
-3,GHI789,Quimica Organica,Paulo Souza,1,3
-4,JKL012,Biologia Geral,Clara Santos,1,4
-5,MNO345,Historia do Brasil,Luis Pereira,1,5
-6,PQR678,Literatura Inglesa,Ana Costa,1,6
-7,STU901,Geografia Fisica,Roberto Lima,1,11
-8,XYZ234,Psicologia Infantil,Bruno Alves,1,15
-9,LMN567,Sociologia Aplicada,Camila Rocha,1,18
-10,OPQ890,Filosofia Contemporanea,Fernando Reis,1,20
-11,ABC123,Matematica Basica,Joao Silva,1,1
-12,DEF456,Fisica Moderna,Maria Oliveira,1,6
-13,ABC123,Matematica Basica,Joao Silva,1,15
-14,QRS345,Matematica Basica,Joao Silva,2,20
-15,TUV678,Fisica Moderna,Maria Oliveira,2,8
-16,JKL012,Biologia Geral,Clara Santos,1,1
-17,MNO345,Historia do Brasil,Luis Pereira,1,12
-18,PQR678,Literatura Inglesa,Ana Costa,1,11
-19,XYZ234,Psicologia Infantil,Bruno Alves,1,17
-20,UVW901,Historia do Brasil,Luis Pereira,2,16
+id,codigo,titulo,autor_1,autor_2,autor_3,volume,aluno
+1,ABC123,Matematica Basica,Joao Silva,Pedro Almeida,Lucas Souza,1,1
+2,DEF456,Fisica Moderna,Maria Oliveira,Juliana Costa,Fernando Silva,1,2
+3,GHI789,Quimica Organica,Paulo Souza,Carlos Lima,Ana Santos,1,3
+4,JKL012,Biologia Geral,Clara Santos,Ricardo Pereira,Fabio Silva,1,4
+5,MNO345,Historia do Brasil,Luis Pereira,Marcos Fernandes,Daniel Souza,1,5
+6,PQR678,Literatura Inglesa,Ana Costa,Sonia Rocha,Thiago Oliveira,1,6
+7,STU901,Geografia Fisica,Roberto Lima,Andre Almeida,Patricia Silva,1,11
+8,XYZ234,Psicologia Infantil,Bruno Alves,Fernanda Oliveira,Isabel Lima,1,15
+9,LMN567,Sociologia Aplicada,Camila Rocha,Rafael Santos,Jose Almeida,1,18
+10,OPQ890,Filosofia Contemporanea,Fernando Reis,Luciana Lima,Diego Souza,1,20
+11,ABC123,Matematica Basica,Joao Silva,Pedro Almeida,Lucas Souza,1,1
+12,DEF456,Fisica Moderna,Maria Oliveira,Juliana Costa,Fernando Silva,1,6
+13,ABC123,Matematica Basica,Joao Silva,Pedro Almeida,Lucas Souza,1,15
+14,QRS345,Matematica Basica,Joao Silva,Pedro Almeida,Lucas Souza,2,20
+15,TUV678,Fisica Moderna,Maria Oliveira,Juliana Costa,Fernando Silva,2,8
+16,JKL012,Biologia Geral,Clara Santos,Ricardo Pereira,Fabio Silva,1,1
+17,MNO345,Historia do Brasil,Luis Pereira,Marcos Fernandes,Daniel Souza,1,12
+18,PQR678,Literatura Inglesa,Ana Costa,Sonia Rocha,Thiago Oliveira,1,11
+19,XYZ234,Psicologia Infantil,Bruno Alves,Fernanda Oliveira,Isabel Lima,1,17
+20,UVW901,Historia do Brasil,Luis Pereira,Marcos Fernandes,Daniel Souza,2,16
