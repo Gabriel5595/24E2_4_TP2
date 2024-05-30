@@ -1,0 +1,72 @@
+{
+    "aluno_1":{
+        "registros_encontrados":5,
+        "alunos":{
+            "num_ra":1,
+            "nome":"Ana",
+            "curso":"Engenharia",
+            "semestre":3,
+            "livros":{
+                "livro 1":1.0,
+                "livro 2":11.0,
+                "livro 3":16.0
+            }
+        }
+    },
+    "aluno_2":{
+        "registros_encontrados":5,
+        "alunos":{
+            "num_ra":5,
+            "nome":"Ana",
+            "curso":"Psicologia",
+            "semestre":3,
+            "livros":{
+                "livro 1":5.0,
+                "livro 2":null,
+                "livro 3":null
+            }
+        }
+    },
+    "aluno_3":{
+        "registros_encontrados":5,
+        "alunos":{
+            "num_ra":7,
+            "nome":"Mariana",
+            "curso":"Medicina",
+            "semestre":5,
+            "livros":{
+                "livro 1":null,
+                "livro 2":null,
+                "livro 3":null
+            }
+        }
+    },
+    "aluno_4":{
+        "registros_encontrados":5,
+        "alunos":{
+            "num_ra":9,
+            "nome":"Ana",
+            "curso":"Administracao",
+            "semestre":2,
+            "livros":{
+                "livro 1":null,
+                "livro 2":null,
+                "livro 3":null
+            }
+        }
+    },
+    "aluno_5":{
+        "registros_encontrados":5,
+        "alunos":{
+            "num_ra":15,
+            "nome":"Ana",
+            "curso":"Psicologia",
+            "semestre":7,
+            "livros":{
+                "livro 1":8.0,
+                "livro 2":13.0,
+                "livro 3":null
+            }
+        }
+    }
+}

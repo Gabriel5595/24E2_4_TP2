@@ -21,9 +21,9 @@ def search_book(dataframe, term, is_id=None):
             }
             authors = {f"autor {i+1}": book_dict.pop(f"autor_{i+1}") for i in range(3)}
             result["autores"] = authors
-            return pandas.Series(result).to_json(orient="index", indent=4, force_ascii=False)
+            return result
         else:
-            return pandas.Series({"erro": "ID não encontrado"}).to_json(orient='index', indent=4, force_ascii=False)
+            return {"erro": "ID não encontrado"}
     
     else:
         books = dataframe[dataframe["titulo"].str.contains(term, case=False, na=False)]
@@ -45,7 +45,7 @@ def search_book(dataframe, term, is_id=None):
             authors = {f"autor {i+1}": books_data.pop(f"autor_{i+1}") for i in range(3)}
             result["autores"] = authors
             global_result["livros"][f"livro_{index+1}"] = result
-        return pandas.Series(global_result).to_json(orient='index', indent=4, force_ascii=False)
+        return global_result
 
 def main():
     dataframe = read_csv("db_books")

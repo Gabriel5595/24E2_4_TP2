@@ -18,11 +18,11 @@ def search_student(dataframe, term, is_ra=None):
                 "semestre": student_dict["semestre"],
                 "livros": {}
             }
-            books = {f"livro_{i+1}": student_dict.pop(f"livro_{i+1}") for i in range(3)}
+            books = {f"livro {i+1}": student_dict.pop(f"livro_{i+1}") for i in range(3)}
             result["livros"] = books
-            return pandas.Series(result).to_json(orient="index", indent=4, force_ascii=False)
+            return result
         else:
-            return pandas.Series({"erro": "RA não encontrado"}).to_json(orient='index', indent=4, force_ascii=False)
+            return {"erro": "RA não encontrado"}
     
     else:
         students = dataframe[dataframe["nome"].str.contains(term, case=False, na=False)]
@@ -33,10 +33,10 @@ def search_student(dataframe, term, is_ra=None):
         for index, student in enumerate(students.iterrows()):
             students_data = student[1].to_dict()
             # Agrupar os livros em um subdicionário "livros"
-            books = {f"livro_{i+1}": students_data.pop(f"livro_{i+1}") for i in range(3)}
+            books = {f"livro {i+1}": students_data.pop(f"livro_{i+1}") for i in range(3)}
             students_data["livros"] = books
             result["alunos"][f"aluno_{index+1}"] = students_data
-        return pandas.Series(result).to_json(orient='index', indent=4, force_ascii=False)
+        return result
 
 def main():
     dataframe = read_csv("db_students")
